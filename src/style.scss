@@ -1,0 +1,72 @@
+.modal {
+  box-sizing: border-box;
+  font-size: 20px;
+  color: white;
+  &_address {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  &_token {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    align-items: center;
+  }
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &_size {
+      font-weight: 600;
+      padding: 10px 40px;
+      border-radius: 10px;
+      border: none;
+      font-size: 15px;
+    }
+  }
+
+  &_stake {
+    text-align: left;
+    margin: 10px 0px;
+  }
+}
+
+.container {
+  margin: 0 auto;
+  padding: 50px;
+  width: 400px;
+  background: rgba(2, 34, 44, 0.699);
+  border-radius: 20px;
+  border: 1px solid rgba(17, 69, 90, 0.808);
+  margin-top: 50px;
+  box-sizing: border-box;
+  display: grid;
+  .button_connect {
+    // min-width: 150px;
+    padding: 10px 10px;
+    color: rgba(255, 255, 255, 0.87);
+    font-weight: 500;
+    font-size: 20px;
+    background: rgba(49, 48, 105, 0.829);
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 10px;
+    &:hover {
+      background: rgba(82, 148, 235, 0.829);
+      transition: 0.5s;
+    }
+  }
+}
+
+.btn {
+  cursor: pointer !important;
+  background: rgb(166, 189, 65);
+  color: rgb(233, 231, 231);
+  &:hover {
+    opacity: 0.5;
+    transition: 0.3s;
+  }
+}

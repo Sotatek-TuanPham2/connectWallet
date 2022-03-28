@@ -1,0 +1,88 @@
+.connector-container {
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  background: rgb(13, 88, 117);
+  padding: 20px;
+  border-radius: 20px;
+  display: grid;
+  justify-content: space-around;
+  align-items: center;
+  & > button {
+    border-radius: 20px;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    min-width: 200px;
+    margin: 10px;
+    font-size: 18px;
+    background: rgba(71, 183, 235, 0.767);
+    cursor: pointer !important;
+    &:hover {
+      transition: 0.4s;
+      opacity: 0.5;
+    }
+  }
+}
+
+.main {
+  width: 500px;
+  margin: 0 auto;
+  text-align: left;
+  background: rgb(13, 88, 117);
+  padding: 20px;
+  border-radius: 20px;
+  font-size: 18px;
+  color: white;
+  line-height: 50px;
+  &_token {
+    display: flex;
+    justify-content: space-between;
+    &-button {
+      & > button {
+        cursor: pointer;
+        padding: 10px 20px;
+        border: none;
+        color: white;
+        background: rgba(71, 183, 235, 0.767);
+        border-radius: 20px;
+        &:hover {
+          transition: 0.4s;
+          opacity: 0.5;
+        }
+      }
+    }
+  }
+  .action-container {
+    & > button {
+      cursor: pointer;
+      padding: 10px 20px;
+      background: rgba(71, 183, 235, 0.767);
+      border: none;
+      color: white;
+      border-radius: 20px;
+      &:hover {
+        transition: 0.4s;
+        opacity: 0.5;
+      }
+    }
+    &-deposit {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      margin-top: 10px;
+      & > button {
+        cursor: pointer;
+        padding: 10px 50px;
+        background: rgba(131, 207, 243, 0.767);
+        color: white;
+        border: none;
+        border-radius: 20px;
+        &:hover {
+          transition: 0.4s;
+          opacity: 0.5;
+        }
+      }
+    }
+  }
+}
